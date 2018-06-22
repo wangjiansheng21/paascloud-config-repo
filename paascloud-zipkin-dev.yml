@@ -7,17 +7,6 @@ spring:
     locator:
       discovery:
         enabled: true
-
-#    zipkin:
-#      collector:
-#        rabbitmq:
-#          addresses: paascloud-mq-rabbit:5672
-#          username: guest
-#          password: guest
-#          queue: zipkin
-#      storage:
-#        type: mysql
-
 security:
   oauth2:
     client:
