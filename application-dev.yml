@@ -12,11 +12,7 @@ spring:
   aop:
     proxy-target-class: true
     auto: true
-  rabbitmq:
-    host: paascloud-mq-rabbit
-    port: 5672
-    username: guest
-    password: guest
+
   redis:
     host: paascloud-db-redis
     password: paascloud@redis
@@ -64,9 +60,6 @@ spring:
     admin:
       username: admin
       password: admin
-  zipkin:
-    rabbitmq:
-      queue: zipkin
   sleuth:
     sampler:
       percentage: 0.2
